@@ -33,12 +33,14 @@
             btn_ReadClipboard = new Button();
             ofd_Image = new OpenFileDialog();
             groupBox1 = new GroupBox();
-            txt_Details = new TextBox();
             groupBox2 = new GroupBox();
             dataGridView1 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
+            txt_Details = new TextBox();
+            bgw_Reader = new System.ComponentModel.BackgroundWorker();
+            lbl_ReadProgress = new Label();
             ((System.ComponentModel.ISupportInitialize)pic_Image).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -90,16 +92,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Image Scan Details";
             // 
-            // txt_Details
-            // 
-            txt_Details.Location = new Point(6, 22);
-            txt_Details.Multiline = true;
-            txt_Details.Name = "txt_Details";
-            txt_Details.ReadOnly = true;
-            txt_Details.Size = new Size(558, 178);
-            txt_Details.TabIndex = 0;
-            txt_Details.Text = "Waiting for Image...";
-            // 
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView1);
@@ -144,11 +136,35 @@
             Column3.Name = "Column3";
             Column3.ReadOnly = true;
             // 
+            // txt_Details
+            // 
+            txt_Details.Location = new Point(6, 22);
+            txt_Details.Multiline = true;
+            txt_Details.Name = "txt_Details";
+            txt_Details.ReadOnly = true;
+            txt_Details.Size = new Size(558, 178);
+            txt_Details.TabIndex = 0;
+            txt_Details.Text = "Waiting for Image...";
+            // 
+            // bgw_Reader
+            // 
+            bgw_Reader.DoWork += bgw_Reader_DoWork;
+            // 
+            // lbl_ReadProgress
+            // 
+            lbl_ReadProgress.AutoSize = true;
+            lbl_ReadProgress.Location = new Point(12, 273);
+            lbl_ReadProgress.Name = "lbl_ReadProgress";
+            lbl_ReadProgress.Size = new Size(38, 15);
+            lbl_ReadProgress.TabIndex = 4;
+            lbl_ReadProgress.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbl_ReadProgress);
             Controls.Add(groupBox1);
             Controls.Add(btn_ReadClipboard);
             Controls.Add(btn_ImageFromFile);
@@ -161,6 +177,7 @@
             groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -176,5 +193,7 @@
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private TextBox txt_Details;
+        private System.ComponentModel.BackgroundWorker bgw_Reader;
+        private Label lbl_ReadProgress;
     }
 }

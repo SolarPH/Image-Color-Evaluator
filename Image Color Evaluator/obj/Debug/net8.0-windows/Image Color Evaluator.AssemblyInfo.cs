@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Image Color Evaluator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f3e531fb42a9c82cb9a9b1a093a63599e07d00a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f871c015f83a6c2c8a9539b9d069835db784f52e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Image Color Evaluator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Image Color Evaluator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
