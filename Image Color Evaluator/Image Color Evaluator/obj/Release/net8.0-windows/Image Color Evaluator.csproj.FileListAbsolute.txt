@@ -1,0 +1,18 @@
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\bin\Release\net8.0-windows\Image Color Evaluator.exe
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\bin\Release\net8.0-windows\Image Color Evaluator.deps.json
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\bin\Release\net8.0-windows\Image Color Evaluator.runtimeconfig.json
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\bin\Release\net8.0-windows\Image Color Evaluator.dll
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\bin\Release\net8.0-windows\Image Color Evaluator.pdb
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image_Color_Evaluator.Form1.resources
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.csproj.GenerateResource.cache
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.AssemblyInfoInputs.cache
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.AssemblyInfo.cs
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.csproj.CoreCompileInputs.cache
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.sourcelink.json
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.dll
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\refint\Image Color Evaluator.dll
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.pdb
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\Image Color Evaluator.genruntimeconfig.cache
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\obj\Release\net8.0-windows\ref\Image Color Evaluator.dll
+D:\Programming Projects\Image-Color-Evaluator\Image Color Evaluator\Image Color Evaluator\bin\Release\net8.0-windows\Image Color Evaluator.dll.config
